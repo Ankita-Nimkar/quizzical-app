@@ -1,0 +1,155 @@
+body {
+  background-color: #f5f7fb;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.ansOpts {
+  display: flex;
+  gap: 17px;
+  padding: 0;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.ans {
+  border: 0.79px solid #4d5b9e;
+
+  border-radius: 8px;
+  padding: 4px 19px;
+
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.selected {
+  background: #d6dbf5;
+}
+.correct {
+  background-color: #94d7a2;
+}
+.wrong {
+  background-color: #f8bcbc;
+  opacity: 0.6;
+}
+.quizzical {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  margin: 0;
+  color: #293264;
+}
+.instructions {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #293264;
+  margin: 0;
+  margin-top: 10px;
+}
+button {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #4d5b9e;
+  color: #f5f7fb;
+  border-radius: 15px;
+  border: none;
+  padding: 16px 28px;
+  width: 193px;
+  height: 52px;
+  margin-top: 30px;
+}
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 220px;
+}
+.que {
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin: 0;
+  margin-bottom: 16px;
+  color: #293264;
+}
+hr {
+  border: 0.79px solid #dbdef0;
+  margin-bottom: 16px;
+}
+.quePage {
+  padding: 40px 75px 40px 75px;
+}
+.checkAns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 120px;
+  padding: 11px 22px;
+  border-radius: 10px;
+
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+
+  margin: 0;
+  margin: auto;
+}
+.opacBg {
+  opacity: 0.6;
+}
+.scoreBoard {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.scoreBoard p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #293264;
+  margin: 0;
+}
+.scoreBoard button {
+  height: 30px;
+  width: 104px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 8px 13px;
+  border-radius: 10px;
+  margin: 0;
+}
